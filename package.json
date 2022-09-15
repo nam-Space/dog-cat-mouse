@@ -1,0 +1,17 @@
+{
+  "name": "1-commit",
+  "version": "1.0.0",
+  "description": "This is a demo how to use git",
+  "main": "Mouse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "node": "^18.9.0",
+    "node-fetch": "^3.2.10"
+  },
+  "type": "module"
+}
