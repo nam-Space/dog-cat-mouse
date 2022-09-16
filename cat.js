@@ -4,4 +4,4 @@ function Cat() {
 	this.stomach = true;
 }
 
-export default Cat;
+module.exports = Cat;
