@@ -1,6 +1,5 @@
-var chalk = require('chalk')
-
-function Dog(){
+function Dog(name){
+	this.name = name;
 	this.stomach = true;
 }
 
@@ -9,7 +8,7 @@ Dog.prototype.food = function(meat){
 }
 
 Dog.prototype.sayHi = function() {
-	console.log('Hi! I am a dog. My name is ' + chalk.red(this.name))
+	console.log('Hi! I am a dog. My name is ' + this.name)
 }
 
 module.exports = Dog;
